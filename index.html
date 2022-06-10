@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="ourStore">
+
+        <div class="store-title">
+            <h1>Our <span class="pink">Store</span></h1>
+        </div>
+
+        <!-- Category buttons -->
+        <div id="buttons">
+            <button class="button-value" onclick="filterProduct('all')">ALL</button>
+            <button class="button-value" onclick="filterProduct('Cake')">CAKE</button>
+            <button class="button-value" onclick="filterProduct('Cupcake')">CUPCAKE</button>
+            <button class="button-value" onclick="filterProduct('Sweets')">SWEETS</button>
+            <button class="button-value" onclick="filterProduct('Doughnut')">DOUGHNUT</button>
+        </div>
+
+        <!-- Search Input -->
+        <div id="search-container">
+
+            <!-- Search Icon -->
+            <div class="search-icon">
+                <span class="material-symbols-outlined">search</span>
+            </div>
+
+            <!-- Search box --> 
+            <input
+              type="search"
+              id="search-input"
+              onkeyup="search()"
+              placeholder="Search Items...."
+            />
+        </div>
+
+        <!-- Product List -->
+        <div id="products"></div>
+
+    </div>
+    
+    <!-- Script -->
+    <script src="script.js"></script>
+    
+</body>
+</html>

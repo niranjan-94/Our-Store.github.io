@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+body {
+    background-color: #ebebea;
+    font-family: 'Playball', cursive;
+}
+.store-title  h1{
+    width: 20%;
+    margin: 0.2em auto 0;
+    font-size: 4em;
+}
+#buttons {
+    width: 56%;
+    margin: 1em auto;
+}
+.button-value {
+    border: 2px solid #ee6d8c;;
+    padding: 1em 2.2em;
+    border-radius: 2em;
+    background-color: transparent;
+    color: #2d2d2c;
+    cursor: pointer;
+    margin-left: 0.5em;
+    font-family: 'Playball', cursive;
+    font-size: 1em;
+    font-weight: 500;
+}
+.active {
+    background-color: #ee6d8c;
+    color: #ffffff;
+  }
+#search-container {
+    width:42%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon {
+    background-color: #ee6d8c;
+    border-radius: 0.5em 0 0 0.5em;
+}
+.search-icon span {
+    padding: 0.39em;
+}
+#search-container input {
+    font-family: 'Playball', cursive;
+    font-size: 1.1em;
+    width: 94%;
+    border-radius: 0 0.5em 0.5em 0;
+    padding: 0.6em 0.3em;
+  }
+.pink {
+    color: #ee6d8c;
+}
+#products {
+    display: flex;
+    padding: 1em 0;
+    width: 77%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+.card {
+    background-color: #ffffff;
+    max-width: 18em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+    margin: 1em auto 1em auto;
+    width: 100%;
+}
+.image-container {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+}
+.container {
+    padding-top: 0.5em;
+    color: #110f29;
+    font-size: 1.4em;
+    padding-left: 0.4em;
+}
+.container h5 {
+    font-weight: 500;
+}
+.hide {
+    display: none;
+}
